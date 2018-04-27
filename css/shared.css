@@ -1,7 +1,7 @@
 .place_for_border {
     width: 100%;
     border: 20px solid #2e3fdc;
-    border-image-source: url(image/cooking_border.jpg);
+    border-image-source: url(../image/cooking_border.jpg);
     border-image-slice: 40%;
     border-image-width: 100px;
     margin: auto;
