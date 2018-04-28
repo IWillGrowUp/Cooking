@@ -20,7 +20,7 @@
     color: #4c158e;
 }
 
-.text_in_border img {
+.image_for_background {
     position: absolute;
     left: 0;
     top: 0;
@@ -30,3 +30,6 @@
     opacity: 0.3;
 }
 
+p {
+    text-indent: 30px;
+}

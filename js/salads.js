@@ -1,7 +1,5 @@
-function showRecipe (someDish, url) {
-    document.getElementById(someDish).addEventListener('click', recipe);
-
-function recipe() {
+function showSalad (someSalad, saladUrl) {
+$(document).on( 'click', someSalad, function saladRecipe() {
     document.getElementById('main_sect').style.display = 'none';
     const xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function() {
@@ -9,12 +7,9 @@ function recipe() {
             document.getElementById('insert_here').innerHTML = xhr.responseText;
         }
     };
-    xhr.open('GET', url + '?r=' + Math.random(), true);
+    xhr.open('GET', saladUrl + '?r=' + Math.random(), true);
     xhr.send();
-    }
+    });
 }
 
-showRecipe('chocolateCakeWithKuraga', '../recipes/chocolate_cake_with_kuraga.html');
-
-
-
+showSalad('#saladWithChickenHearts', '../recipes/salad_with_chicken_hearts.html');
