@@ -12,7 +12,7 @@ $(document).on( 'click', someDesert, function desertRecipe() {
     });
 }
 
-showDesert('#appleJam', '../recipes/apple_jam.html');
+showDesert('#appleJam', 'recipes/apple_jam.html');
 
 
 

@@ -14,4 +14,4 @@ function recipe() {
     }
 }
 
-showRecipe('meatCrown', '../recipes/meat_crown.html');
+showRecipe('meatCrown', 'recipes/meat_crown.html');

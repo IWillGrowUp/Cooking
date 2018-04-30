@@ -12,4 +12,4 @@ $(document).on( 'click', someSalad, function saladRecipe() {
     });
 }
 
-showSalad('#saladWithChickenHearts', '../recipes/salad_with_chicken_hearts.html');
+showSalad('#saladWithChickenHearts', 'recipes/salad_with_chicken_hearts.html');

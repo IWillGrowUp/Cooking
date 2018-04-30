@@ -12,4 +12,4 @@ $(document).on( 'click', someBaking, function bakingRecipe() {
     });
 }
 
-showBaking('#chocolateCakeWithKuraga', '../recipes/chocolate_cake_with_kuraga.html');
+showBaking('#chocolateCakeWithKuraga', 'recipes/chocolate_cake_with_kuraga.html');

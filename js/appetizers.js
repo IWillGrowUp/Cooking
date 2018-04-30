@@ -12,6 +12,6 @@ $(document).on( 'click', someAppetizers, function appetizersRecipe() {
     });
 }
 
-showAppetizers('#spinachAndArtichoke', '../recipes/spinach_and_artichoke.html');
-showAppetizers('#brokoliWithGurlicSouce', '../recipes/brokoli_with_gurlic_souce.html');
-showAppetizers('#nestsWithMincedMeatWithChease', '../recipes/nests_with_minced_meat_with_chease.html');
+showAppetizers('#spinachAndArtichoke', 'recipes/spinach_and_artichoke.html');
+showAppetizers('#brokoliWithGurlicSouce', 'recipes/brokoli_with_gurlic_souce.html');
+showAppetizers('#nestsWithMincedMeatWithChease', 'recipes/nests_with_minced_meat_with_chease.html');
