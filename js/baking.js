@@ -1,7 +1,5 @@
-function showRecipe (someDish, url) {
-    document.getElementById(someDish).addEventListener('click', recipe);
-
-function recipe() {
+function showBaking (someBaking, bakingUrl) {
+$(document).on( 'click', someBaking, function bakingRecipe() {
     document.getElementById('main_sect').style.display = 'none';
     const xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function() {
@@ -9,9 +7,9 @@ function recipe() {
             document.getElementById('insert_here').innerHTML = xhr.responseText;
         }
     };
-    xhr.open('GET', url + '?r=' + Math.random(), true);
+    xhr.open('GET', bakingUrl + '?r=' + Math.random(), true);
     xhr.send();
-    }
+    });
 }
 
-showRecipe('meatCrown', '../recipes/meat_crown.html');
+showBaking('#chocolateCakeWithKuraga', '../recipes/chocolate_cake_with_kuraga.html');
