@@ -12,7 +12,7 @@ h1 {
 }
 
 .main_art {
-    width: 23%;
+    width: 215px;
     font-size: 0.8rem;
     margin: auto;
 }
@@ -26,6 +26,8 @@ h1 {
 }
 
 .card-header {
-    font-size: 1.1rem;
-    height: 5rem;
+    font-size: 1rem;
+    height: 4.8rem;
+    padding: 10px;
 }
+

@@ -39,6 +39,17 @@ iframe {
   margin: 0 auto;
 }
 
+@media (max-width: 595px) {
+  iframe {
+    width: 90%;
+  }
+
+  .text_in_border {
+    width: 88%;
+    padding: 1%;
+  }
+}
+
 .card mb-3 {
   height: 200px !important;
 }
