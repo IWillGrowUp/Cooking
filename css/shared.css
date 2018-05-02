@@ -45,8 +45,24 @@ iframe {
   }
 
   .text_in_border {
-    width: 88%;
-    padding: 1%;
+    width: 97%;
+    padding: 4%;
+  }
+
+   .text_in_border h1 {
+    font-size: 1.5rem;
+  }
+
+  .place_for_border {
+    border-image-slice: 49%;
+    border-image-width: 80px;
+    margin: auto;    
+  }
+}
+
+@media (max-width: 480px) {
+  .text_in_border h1 {
+    font-size: 1rem;
   }
 }
 
