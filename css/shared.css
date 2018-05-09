@@ -188,7 +188,7 @@ label::first-letter {
 }
 
 .animated-box.in:after {
-  animation: frame-enter 1s forwards ease-in-out reverse, gradient-animation 2s ease-in-out infinite;
+  animation: gradient-animation 2s ease-in-out infinite;
 }
 
 @keyframes gradient-animation {
@@ -215,4 +215,3 @@ label::first-letter {
   background-size: 300% 300%;
   clip-path: polygon(0% 100%, 5px 100%, 5px 5px, calc(100% - 5px) 5px, calc(100% - 5px) calc(100% - 5px), 5px calc(100% - 5px), 5px 100%, 100% 100%, 100% 0%, 0% 0%);
 }
-

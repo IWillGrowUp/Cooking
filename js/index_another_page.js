@@ -21,6 +21,6 @@ showAnotherPage('nav-link', 'deserts.html', 4);
 showAnotherPage('nav-link', 'baking.html', 5);
 showAnotherPage('nav-link', 'salads.html', 6);
 showAnotherPage('nav-link', 'appetizers.html', 7);
-showAnotherPage('nav-link', 'souces.html', 8);
+showAnotherPage('nav-link', 'sauces.html', 8);
 
 

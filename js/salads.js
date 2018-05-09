@@ -1,5 +1,5 @@
 function showSalad (someSalad, saladUrl) {
-$(document).on( 'click', someSalad, function saladRecipe() {
+$(document).on('click', someSalad, function saladRecipe() {
     document.getElementById('main_sect').style.display = 'none';
     const xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function() {
@@ -13,3 +13,4 @@ $(document).on( 'click', someSalad, function saladRecipe() {
 }
 
 showSalad('#saladWithChickenHearts', 'recipes/salad_with_chicken_hearts.html');
+showSalad('#fiveNewSalads', 'recipes/five_new_salads.html');

@@ -1,5 +1,5 @@
 function showDesert (someDesert, desertUrl) {
-$(document).on( 'click', someDesert, function desertRecipe() {
+$(document).on('click', someDesert, function desertRecipe() {
     document.getElementById('main_sect').style.display = 'none';
     const xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function() {
@@ -13,3 +13,4 @@ $(document).on( 'click', someDesert, function desertRecipe() {
 }
 
 showDesert('#appleJam', 'recipes/apple_jam.html');
+showDesert('#zalcburgNokerln', 'recipes/zalcburg_nokerln.html');

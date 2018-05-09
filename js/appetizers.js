@@ -1,5 +1,5 @@
 function showAppetizers (someAppetizers, appetizersUrl) {
-$(document).on( 'click', someAppetizers, function appetizersRecipe() {
+$(document).on('click', someAppetizers, function appetizersRecipe() {
     document.getElementById('main_sect').style.display = 'none';
     const xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function() {

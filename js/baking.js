@@ -1,5 +1,5 @@
 function showBaking (someBaking, bakingUrl) {
-$(document).on( 'click', someBaking, function bakingRecipe() {
+$(document).on('click', someBaking, function bakingRecipe() {
     document.getElementById('main_sect').style.display = 'none';
     const xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function() {
