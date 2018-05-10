@@ -181,10 +181,12 @@ label::first-letter {
   font-size: 20px;
   font-weight: 600;
   color: #ff5700;
-  padding: 10px;
+  padding: 8px;
+
   text-align: center;
   width: 90%;
   margin: 2rem auto;
+
 }
 
 .animated-box.in:after {
@@ -214,4 +216,17 @@ label::first-letter {
   background: linear-gradient(90deg, #0575E6, #00f2f2,#3051bf, #4800f2);
   background-size: 300% 300%;
   clip-path: polygon(0% 100%, 5px 100%, 5px 5px, calc(100% - 5px) 5px, calc(100% - 5px) calc(100% - 5px), 5px calc(100% - 5px), 5px 100%, 100% 100%, 100% 0%, 0% 0%);
+  margin-bottom: 16px;
 }
+
+
+.card-header {
+  height: 40px;
+}
+
+.card-body {
+
+}
+
+
+

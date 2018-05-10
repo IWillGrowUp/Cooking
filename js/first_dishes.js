@@ -1,5 +1,5 @@
-function showSauce (someSauce, sauceUrl) {
-$(document).on('click', someSauce, function sauceRecipe() {
+function showFirstDish (someFirstDish, firstDishUrl) {
+$(document).on('click', someFirstDish, function firstDishRecipe() {
     document.getElementById('main_sect').style.display = 'none';
     const xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function() {
@@ -7,9 +7,9 @@ $(document).on('click', someSauce, function sauceRecipe() {
             document.getElementById('insert_here').innerHTML = xhr.responseText;
         }
     };
-    xhr.open('GET', sauceUrl + '?r=' + Math.random(), true);
+    xhr.open('GET', firstDishUrl + '?r=' + Math.random(), true);
     xhr.send();
     });
 }
 
-showSauce('#nineSaucesToMacaroni', 'recipes/nine_sauces_to_macaroni.html');
+showFirstDish('#chickenSoupTomYam', 'recipes/chicken_soup_tom_yam.html');
