@@ -16,3 +16,4 @@ function recipe() {
 
 showRecipe('meatCrown', 'recipes/meat_crown.html');
 showRecipe('ukrainianSausage', 'recipes/ukrainian_sausage.html');
+showRecipe('chickenBrest', 'recipes/chicken_brest.html');

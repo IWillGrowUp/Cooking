@@ -119,6 +119,7 @@ label, input {
   z-index: 2; 
   display: block; 
   margin: 2rem auto;
+  box-shadow: 8px 8px 1px #545453;
 }
 
 .recipe_image_two_in_a_line {
@@ -219,14 +220,9 @@ label::first-letter {
   margin-bottom: 16px;
 }
 
-
-.card-header {
-  height: 40px;
+b {
+  color: #ffffff;
+  text-shadow: 3px 2px 2px #000000, 2px -2px 2px #1b00ff;
+  font-size: 18px;
 }
-
-.card-body {
-
-}
-
-
 

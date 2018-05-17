@@ -9,6 +9,9 @@ body {
 
 h1 {
     text-align: center;
+    text-shadow: 5px 2px 3px #3f5254, 6px -3px 2px #51555f;
+    color: white;
+    font-weight: 600;
 }
 
 .main_art {

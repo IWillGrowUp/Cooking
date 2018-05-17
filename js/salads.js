@@ -14,3 +14,4 @@ $(document).on('click', someSalad, function saladRecipe() {
 
 showSalad('#saladWithChickenHearts', 'recipes/salad_with_chicken_hearts.html');
 showSalad('#fiveNewSalads', 'recipes/five_new_salads.html');
+showSalad('#saladSadko', 'recipes/saladSadko.html');
