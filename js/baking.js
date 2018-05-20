@@ -18,4 +18,4 @@ showBaking('#magnificentPaska', 'recipes/magnificent_paska.html');
 showBaking('#cheeseCakeTiropita', 'recipes/cheese_cake_tiropita.html');
 showBaking('#chocolateTubes', 'recipes/chocolate_tubes.html');
 showBaking('#cocoaMirrorGlaze', 'recipes/cocoa_mirror_glaze.html');
-
+showBaking('#forgottenCookies', 'recipes/forgotten_cookies.html');

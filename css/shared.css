@@ -140,42 +140,7 @@ label::first-letter {
   text-transform: lowercase;
 }
 
-@media (max-width: 595px) {
-  iframe {
-    width: 100%;
-  }
 
-  .text_in_border {
-    width: 97%;
-    padding: 4%;
-  }
-
-  .recipe_image {
-    width: 100%;
-    height: 100%;
-  }
-
-   .text_in_border h1 {
-    font-size: 1.5rem;
-  }
-
-  .place_for_border {
-    border-image-slice: 49%;
-    border-image-width: 80px;
-    margin: auto;    
-  }
-  
-  .recipe_image_two_in_a_line {
-  height: 100%; 
-  width: 48%;
-  } 
-}
-
-@media (max-width: 480px) {
-  .text_in_border h1 {
-    font-size: 1rem;
-  }
-}
 
 .animated-box {
   position: relative;
@@ -226,3 +191,126 @@ b {
   font-size: 18px;
 }
 
+.leftRight {
+  margin: 2rem;
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  font-weight: 600;
+  font-size: 20px;
+  width: 25%;
+  text-align: center;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 2%;
+  }
+
+  to {
+    margin-left: 70%;
+  }
+  
+  10% {
+    color:#bf152f;
+  }
+  20% {
+    color:green;
+  }
+  30% {
+    color:#b51a80;
+  }
+  40% {
+    color:#209e92;
+  }
+  50% {
+    color:#af1a97;
+  }
+  60% {
+    color:#821aaf;
+  }
+  70% {
+    color:#8c6015;
+  }
+  80% {
+    color:#101010;
+  }
+  90% {
+    color:#ff0e05;
+  }
+}
+
+@media (max-width: 595px) {
+  iframe {
+    width: 100%;
+  }
+
+  .text_in_border {
+    width: 97%;
+    padding: 4%;
+  }
+
+  .recipe_image {
+    width: 100%;
+    height: 100%;
+  }
+
+   .text_in_border h1 {
+    font-size: 1.5rem;
+  }
+
+  .place_for_border {
+    border-image-slice: 49%;
+    border-image-width: 80px;
+    margin: auto;    
+  }
+  
+  .recipe_image_two_in_a_line {
+  height: 100%; 
+  width: 48%;
+  } 
+}
+
+@media (max-width: 480px) {
+  .text_in_border h1 {
+    font-size: 1rem;
+  }
+
+  @keyframes slidein {
+  from {
+    margin-left: 5%;
+  }
+
+  to {
+    margin-left: 55%;
+  }  
+  10% {
+    color:#bf152f;
+  }
+  20% {
+    color:green;
+  }
+  30% {
+    color:#b51a80;
+  }
+  40% {
+    color:#209e92;
+  }
+  50% {
+    color:#af1a97;
+  }
+  60% {
+    color:#821aaf;
+  }
+  70% {
+    color:#8c6015;
+  }
+  80% {
+    color:#101010;
+  }
+  90% {
+    color:#ff0e05;
+  }
+}

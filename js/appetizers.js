@@ -17,3 +17,4 @@ showAppetizers('#brokoliWithGurlicSouce', 'recipes/brokoli_with_gurlic_souce.htm
 showAppetizers('#nestsWithMincedMeatWithChease', 'recipes/nests_with_minced_meat_with_chease.html');
 showAppetizers('#homePaste', 'recipes/home_paste.html');
 showAppetizers('#pickledCheese', 'recipes/pickled_cheese.html');
+showAppetizers('#stacksOfStuffing', 'recipes/stacks_of_stuffing.html');
